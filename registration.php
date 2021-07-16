@@ -5,5 +5,5 @@
  */
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'CN_ImportCustomer', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'CnAnkit_ImportCustomer', __DIR__);
 

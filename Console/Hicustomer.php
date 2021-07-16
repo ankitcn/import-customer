@@ -1,6 +1,6 @@
 <?php
 
-namespace CN\ImportCustomer\Console;
+namespace CnAnkit\ImportCustomer\Console;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
@@ -12,7 +12,7 @@ class Hicustomer extends Command
 {
   protected function configure()
   {
-    $this->setName('cn:customer');
+    $this->setName('cnankit:customer');
     $this->setDescription('Demo command line');
     parent::configure();
   }
